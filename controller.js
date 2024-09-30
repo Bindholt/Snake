@@ -57,6 +57,7 @@ function getSpeed() {
     if(score < 5) return 350;
     if(score < 10) return 300;
     if(score < 20) return 250;     
+    return 200;
 }
 
 function changeDirection(direction) {
